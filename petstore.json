@@ -28,7 +28,7 @@ schemes:
 - "https"
 - "http"
 paths:
-  /pet:
+  /rajeev:
     post:
       tags:
       - "pet"
@@ -85,7 +85,7 @@ paths:
       - petstore_auth:
         - "write:pets"
         - "read:pets"
-  /pet/findByStatus:
+  /pet/lanka:
     get:
       tags:
       - "pet"
